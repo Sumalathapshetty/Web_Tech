@@ -1,0 +1,25 @@
+ h1{
+    padding: 200px;
+    /* border-width: 10px;
+    border-style: dotted;
+    border-color: green; */
+   
+    /* in single line */
+     border: 20px solid #008000;
+     margin: 10px;
+     background-color: chartreuse;
+    
+    
+    /* extra */
+    padding: 150px;
+    border-width: 20px solid red;
+    margin: 150px;
+
+    
+    
+    
+    
+    
+    
+    
+    }

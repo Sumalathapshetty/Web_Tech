@@ -1,0 +1,33 @@
+/* decendent */
+h2 {
+    background: red;
+    color: yellow;
+    border: 2px;
+    font-size: 20px;
+}
+/* Prefernces */
+#demo{
+    color: aqua;
+}
+.test{
+    color: rgb(249, 12, 213);
+}
+/* child selectors */
+div>p{
+    color: black;
+    background: greenyellow;
+}
+article>{
+background-color: rgb(179, 7, 119);
+}
+
+/* adjecent sibling */
+header+pre{
+    background: rgb(255, 0, 183);
+    color: greenyellow
+}
+/* general sibling */
+ header~pre{
+    background: blue;
+    color: greenyellow
+} 

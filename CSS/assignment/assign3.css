@@ -1,0 +1,18 @@
+h3{
+    padding: 300px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-width: 60px;
+    border-style: double;
+    border-color: rgb(0, 255, 8);
+    border-right-style: groove;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: rgb(11, 0, 6);
+    background-color: aqua;
+    color: darkcyan;
+        
+
+
+}

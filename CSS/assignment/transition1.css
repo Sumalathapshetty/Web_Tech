@@ -1,0 +1,12 @@
+div{
+     display: flex;
+    /* justify-content: left;*/
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+/* means it gives the space from one img to another img */
+   justify-content: space-between;
+
+/*means its gives space arround the img  */
+justify-content: space-around;
+}

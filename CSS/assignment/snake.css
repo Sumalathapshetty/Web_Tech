@@ -1,0 +1,234 @@
+body{
+    background-color: skyblue;
+    /* display: flex; */
+} 
+#aa{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: ss;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes ss{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#bb{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    position: relative;
+    animation-name: uu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+@keyframes uu{
+    0%{
+        left:0px;
+    }
+    50%{
+     left: 100px;  
+    }
+    100%{
+        left: 0px;
+    }
+    }
+ #cc{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    position: relative;
+    animation-name: mm;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+    }
+@keyframes mm{
+        0%{
+            left:0px;
+        }
+        50%{
+         left: 100px;  
+        }
+        100%{
+            left: 0px;
+        }
+        }
+#dd{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    position: relative;
+    animation-name: aa;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.6s;
+    }
+        @keyframes aa{
+            0%{
+                left:0px;
+            }
+            50%{
+             left: 100px;  
+            }
+            100%{
+                left: 0px;
+            }
+            }
+#ee{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: zz;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.8s;
+}
+@keyframes zz{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#ff{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: yy;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes yy{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#gg{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: xx;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.2s;
+}
+@keyframes xx{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#hh{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: uu;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.4s;
+}
+@keyframes uu{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#ii{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: tt;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.6s;
+}
+@keyframes tt{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}
+#ii{
+    height: 80px;
+    width: 80px;
+    border: 5px groove green;
+    background-color: yellow;
+    border-radius: 100px;
+    animation-name: vv;
+    position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.8s;
+}
+@keyframes vv{
+0%{
+    left:0px;
+}
+50%{
+ left: 100px;  
+}
+100%{
+    left: 0px;
+}
+}

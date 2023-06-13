@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            margin: 0;
+            background-color: rgb(221, 255, 0);
+        } */
+        #container{
+            height: 500px;
+            border: 6px solid red;
+            display: flex;/*inline-flex*/
+            /* flex direction have 4types */
+            flex-direction: row;/* row,row-reverse, column, column-reverse, */
+            flex-wrap: nowrap;/* nowrap,wrap*/
+            justify-content: flex-start;/* flex start,flex end,space between, space arround ,space evenly, center */
+            /*align-items: center; end ,start,center*/
+            /* align-items: baseline; */
+
+        }
+        /* all the flex targeted during the class name and each color are same as yellow before */
+        .flex-item{
+            height: 200px;
+            width: 150px;
+            color: blue;
+            background-color: yellow;
+            border: 3px solid green;
+        }
+         .item1{
+            background-color: aqua;
+            order: 4;
+            flex-grow: 1;
+        }
+       .item2{
+            background-color: rgb(201, 71, 149);
+            order: 3;
+            flex-grow: 0.5;
+
+        }
+        .item3{
+            background-color: chartreuse;
+            order: 1;
+            flex-grow: 0;
+        }
+        .item4{
+            background-color: darkorange;
+            order: 2;
+            flex-grow: 0.1;
+        } 
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="flex-item item1">item1</div>
+        <div class="flex-item item2">item2</div>
+        <div class="flex-item item3">item3</div>
+        <div class="flex-item item4">item4</div>
+    </div>
+</body>
+</html>

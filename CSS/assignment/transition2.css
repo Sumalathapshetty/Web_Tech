@@ -1,0 +1,16 @@
+div{
+    height: 500px;
+    width: 1000px;
+    /* means text will be comes on the corner of the topleft */
+    display: flex;
+
+         /* without the display of the flex it won't show the difference.
+            justify means the text will be comes on the midle of the top */
+    justify-content: center;
+
+            /* without the display it won't work */
+            /* means it comes in the middle of the box */
+    align-items: center;
+    border: 5px double green;
+    background-color: aqua;
+}

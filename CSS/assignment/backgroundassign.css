@@ -1,0 +1,8 @@
+body{
+    background-repeat: no-repeat;
+    color: yellow;
+    font-size: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4EX10bCKnxiAKawJ-0Uvwj3LecPjYlvVKQ&usqp=CAU);
+    background-attachment: scroll;
+    background-size: cover;
+}

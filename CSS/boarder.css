@@ -1,0 +1,28 @@
+div{
+    height: 500px;
+    width: 500px;
+    border-top-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+
+    border-top-style: groove;
+    border-left-style: inset;
+    border-right-style: outset;
+    border-bottom-style: dotted;
+
+    border-top-color: red;
+    border-bottom-color: yellow;
+    border-left-color: purple;
+    border-right-color: #0000ff;
+
+    background-color: pink;
+
+    border-radius: 50px;
+}
+#su{
+    width: 200px;
+    height: 200px;
+    border: 20px solid skyblue;
+    background-color: blueviolet;
+}

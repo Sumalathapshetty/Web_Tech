@@ -1,0 +1,109 @@
+body{
+    height: 1000px;
+    width: 900px;
+    border: 20px groove red;
+    position: relative;
+}
+#Suma{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby1.jpeg);
+    background-size: cover;
+    position: absolute;
+}
+#Suma:hover{
+    transform: rotate(180deg);
+}
+#Vi{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby2.jpeg);
+    background-size: cover;
+     position: relative; 
+     left: 350px;
+}
+#Vi:hover{
+    transform:scale(2,1);
+}
+#dya{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby3.jpeg);
+    background-size: cover;
+     position: relative;
+     left: 680px;
+     bottom: 210px;
+}
+#dya:hover{
+    transform:skewX(20deg);
+}
+#la{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby4.jpeg);
+    background-size: cover;
+     position: relative; 
+    background-position: center;
+   
+}
+#la:hover{
+    transform:matrix(0.5,2,2,0.5,1,1);
+}
+#tha{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby5.jpeg);
+    background-size: cover;
+     position: relative; 
+     left: 350px;
+     bottom: 210px;
+}
+#tha:hover{
+    transform:matrix(0.5,2,3,1,1,2);
+}
+#pre{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby6.jpeg);
+    background-size: cover;
+     position: relative; 
+     left: 680px;
+     bottom: 420px;
+}
+#pre:hover{
+    transform:skewY(20deg);
+}
+#ma{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby7.jpeg);
+    background-size: cover;
+    position: relative; 
+    bottom: 290px;
+    left: 150px;
+     
+}
+#ma:hover{
+    transform:scaleX(2);
+}
+#prams{
+    width: 200px;
+    height: 200px;
+    border: 05px double green;
+    background-image: url(../images1/baby8.jpeg);
+    background-size: cover;
+     position: relative; 
+     left: 500px;
+    bottom: 500px;
+
+}
+#prams:hover{
+    transform:translateX(130px);
+}

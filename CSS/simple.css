@@ -1,0 +1,25 @@
+/* id */
+#Demo{
+    background-color: aqua;
+    font-size: 20px;
+    color: rgb(33, 20, 220);
+}
+/* class */
+.test{
+    background-color:darkgoldenrod;
+}
+/* tag name */
+article{
+    background-color: aqua;
+}
+/* grouping  */
+article,h6,pre{
+    color:black;
+    background: pink;  
+} 
+/* universe */
+*{
+    background-color: rgb(30, 210, 36);
+    color: rgb(234, 227, 33);
+}
+

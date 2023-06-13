@@ -1,0 +1,29 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 20px double green;
+    background-color: red;
+}
+#test{
+    height: 100px;
+    width: 100px;
+    border: 10px groove blueviolet;
+    position: relative;
+    background-color: rgb(248, 248, 12);
+    left: 110px;
+    top: 150px;
+    /* width will expand in 5sec and height will exanding the 20 sec */
+    /* transition: width 5s,height 20s; */
+    transition-property:height,width ;
+    transition-delay: 1s;
+    background-color: green;
+    transition-duration: 3s;
+}
+ #test:hover{
+    /* background-image: url(../HTML/images/Nature); */
+    background-color: rgb(0, 221, 255);
+    /* hight should be greater than the #test h&w  */
+    height: 200px;
+    width: 200px;
+    /* background-repeat: no repeat; */
+}

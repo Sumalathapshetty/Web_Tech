@@ -1,0 +1,33 @@
+div.demo p:first-child{
+    color: red;
+}
+
+/* last child */
+div.demo p:last-child{
+    color: blue;
+}
+
+/* nth child */
+div.demo p:nth-child(2){
+    color: chartreuse;
+}
+
+/* nth last child */
+div.demo p:nth-last-child(4){
+     color: violet;
+}
+
+/* first of type */
+div.demo p:first-of-type{
+    color: aqua;
+}
+
+/* last of type */
+div.demo p:last-of-type{
+    color: tomato;
+}
+
+/* extra */
+/* bady{
+    color:rgb(0, 255, 64);
+} */

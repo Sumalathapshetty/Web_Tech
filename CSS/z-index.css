@@ -1,0 +1,52 @@
+#main{
+    height: 800px;
+    width: 600px;
+    border: 30px double blue;
+    position:relative;
+    background-color: red;
+}
+#div1{
+    height: 310px;
+    width: 310px;
+    border: 10px double blueviolet;
+    background-color: rgb(42, 165, 50);
+    position:absolute;
+    z-index: 1;
+}
+#div2{
+    height: 210px;
+    width: 210px;
+    border: 10px double blueviolet;
+    background-color: rgb(228, 141, 54);
+    position: absolute;
+    z-index: 2;
+}
+#div3{
+    height: 140px;
+    width: 140px;
+    border: 10px double blueviolet;
+    background-color: rgb(42, 151, 165);
+    position: absolute;
+    z-index: 4;
+}
+#div4{
+    height: 160px;
+    width: 160px;
+    border: 10px double blueviolet;
+    background-color: rgb(165, 42, 136);
+    position: absolute;
+    z-index: 3  ;
+}
+
+article{
+    text-indent: 50px;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+     text-transform: capitalize; /* every first letter in upper case */
+    /* text-transform: inherit; */
+
+    white-space: nowrap;
+   /* white-space: pre-wrap; */
+         /* by defalut */
+    /* white-space: wrap;  */
+}

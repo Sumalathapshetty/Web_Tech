@@ -1,0 +1,11 @@
+#loginForm{
+    border: 10px double black;
+    height: 300px;
+    width: 300px;
+    /* margin-top: 100px;
+    margin-left: 400px;
+    background-color: rgb(0, 255, 38); */
+}
+body{
+    background-color: rgb(80, 220, 255);
+}

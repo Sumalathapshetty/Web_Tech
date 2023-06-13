@@ -1,0 +1,22 @@
+h4::first-letter{
+    color: blue;
+}
+h4::first-line{
+    color: aqua;
+}
+h4::selection{
+    color: purple;
+    background-color: black;
+}
+h2::before{
+    content: "About yourself ==>";
+    color: brown;
+}
+h4::after{
+    content:"==> Thank you";
+    color: brown;
+}
+li::marker{
+    color: green;
+    font-size: 30px;
+}

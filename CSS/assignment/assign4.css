@@ -1,0 +1,55 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 200px;
+    background-color: yellow;
+}
+div:hover{
+    background-color: red;
+    border-radius:100px ;
+}
+p{
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;  
+}
+p:hover{
+    background-color: #09cc;
+    border-radius: 100px;
+}
+h1{
+    height: 200px;
+    width: 200px;
+    background-color: forestgreen;  
+  }
+h1:hover{
+      background-color:rgb(60, 247, 9);
+      border-radius: 100px;
+  }
+pre{
+    height: 200px;
+    width: 200px;
+    background-color:chocolate;  
+  }
+pre:hover{
+      background-color:rgba(250, 150,180, 0.5);
+      border-radius: 100px;
+  }
+span{
+    height: 200px;
+    width: 200px;
+    background-color:blue;  
+  }
+span:hover{
+      background-color: hsl(25, 100%, 50%);
+      border-radius: 100px;
+  }
+h2{
+    height: 200px;
+    width: 200px;
+    background-color: darkslateblue;  
+  }
+h2:hover{
+      background-color:hsla(40, 40%, 50%, 1.0);
+      border-radius: 100px;
+  }

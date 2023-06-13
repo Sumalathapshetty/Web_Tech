@@ -1,0 +1,13 @@
+/* only by taking attribute name */
+h1[id]{
+    color: red;
+}
+/* to target individual attribute name */
+h1[id="vidya"]{
+    color: aqua;
+}
+
+input[name]{
+    background-color: rgb(255, 0, 115);
+    height: 200px;
+}

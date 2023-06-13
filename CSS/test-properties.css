@@ -1,0 +1,28 @@
+p{
+    color: blue;
+    background-color: aqua;
+}
+/* test align */
+h1{
+    text-align: center;
+    color: brown;
+}
+/* test shadow */
+h2{
+    color: red;
+    text-shadow: 5px 4px 2px yellow;
+}
+/* text decoring */
+pre{
+    color: blue;
+    /* text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through; */
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style:dotted ;
+    text-decoration-thickness: 2px;
+    /* space between the single letter to anther letter */
+    /* letter-spacing: 5px; */
+    word-spacing: 20px;
+}

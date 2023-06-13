@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+article{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(42, 165, 67);
+    border: 20px double rgb(205, 63, 50);
+    transition-duration: 5s;
+}
+article:hover{
+    transform: rotate(90deg);
+    transform: skew(90deg,120deg);
+    transform: skewX(180deg);
+    transform: skewY(180deg);
+    transform: scale(2,2);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: translate(200px);
+    transform: translateY(100px);
+    transform: translate(200px,100px); 
+    /* matrix means it takes all the properties into one line only */
+    transform: matrix(0.5,9,9,0.5,10px,20px)
+} 

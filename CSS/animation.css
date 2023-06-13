@@ -1,0 +1,65 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 10px double red;
+    background-color: yellow;
+    animation-name: suma;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+ @keyframes suma{
+    from{
+        border: 10px double red;
+        background-color: yellow;
+        border-radius: 0px;
+    }
+    to{
+        border: 20px groove green;
+        background-color: skyblue;
+        border-radius: 200px;
+    }
+ }
+ h1{
+    height: 300px;
+    width: 300px;
+    border: 10px double rgb(0, 255, 106);
+    background-color: rgb(64, 0, 255);
+    animation-name: vidya;
+    animation-duration: 20s;
+    /* animation-delay: 5s; */
+    animation-iteration-count: 2;
+    /* animation-direction: alternate-reverse; */
+    animation-direction: alternate;
+}
+ @keyframes vidya{
+    from{
+        border: 10px double rgb(0, 255, 106);
+        background-color: rgb(64, 0, 255);
+        border-radius: 0px;
+    }
+    to{
+        border: 20px groove rgb(128, 0, 87);
+        background-color: rgb(235, 135, 135);
+        border-radius: 200px;
+    }
+0%{
+    transform: translateX(0px) rotate(10deg) scale(1);
+    background-color: brown;
+}
+25%{
+    transform: translateY(300px) rotate(20deg) scale(2);
+    background-color: cadetblue;
+}
+50%{
+    transform: translate(400px,300px) rotate(30deg) scale(2,3);
+    background-color: yellow;
+}
+75%{
+    transform: translateX(400px) rotate(40deg);
+    background-color: tomato;
+}
+100%{
+    transform: translateX(0px) rotate(50deg);
+    background-color: violet;
+}
+}

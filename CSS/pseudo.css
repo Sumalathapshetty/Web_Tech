@@ -1,0 +1,35 @@
+/* first letter element */
+ p::first-letter{
+color: brown;
+font-size: 50px;    
+} 
+
+/* first line element */
+p::first-line{
+    color: rgb(0, 255, 17);
+    font-style: 50px;
+}
+/* selection */
+/* p::selection{
+    color: brown;
+    font-size: 50px;
+    background-color: yellow; 
+ } */
+
+/* before */
+p::before{
+    content: "headlines=>";
+    color: cadetblue;
+}
+
+/* after */
+ p::after{
+    content: "headlines=>";
+    color: cadetblue;
+} 
+
+/* marker */
+li::marker{
+    color: rgb(85, 0, 255);
+    font-size: 30px;
+}

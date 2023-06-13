@@ -1,0 +1,32 @@
+
+#Demo{
+    background-color: bisque;
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    height: 50px;
+    border-style: double;
+    border-width: 10px;
+    border-color: darkolivegreen;
+}
+
+h4{
+    background-color: rgb(10, 13, 225);
+    color: rgb(254, 33, 207);
+    font-size: 50px;
+    font-style: italic;
+    border-style: groove;
+    border-width: 8px;
+    border-color: rgb(149, 228, 11);
+}
+
+pre{
+    background-color: rgb(38, 161, 186);
+    color: rgb(255, 242, 0);
+    font-size: 40px;
+    font-style: italic;
+    height: 50px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgba(85, 107, 47, 0.065);
+}

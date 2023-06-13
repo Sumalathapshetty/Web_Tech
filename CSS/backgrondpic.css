@@ -1,0 +1,21 @@
+body{
+    /* relative path images */
+    background-image: url(../HTML/images/prabhas.jpeg);
+   
+        /* if you want the images should be repeat still the web pages  no need to put the background-repeat: as no repeat; */
+    background-repeat: no-repeat;
+    color: yellow;
+    font-size: 100px;
+            /* content &images will scroll for once */
+    background-attachment: scroll;
+
+    /* extra content will scroll not the images */
+             /* background-attachment: fixed; */
+
+    /* absolute path images */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF4EX10bCKnxiAKawJ-0Uvwj3LecPjYlvVKQ&usqp=CAU); */
+    
+    /* size of the pic  or 1st for weight 2nd for height*/
+    /* background-size: cover; */
+    background-size: 1350px 2200px;
+}
